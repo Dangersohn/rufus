@@ -33,7 +33,7 @@ def print_slow(str):
 	for letter in str:
 		sys.stdout.write(letter)
 		sys.stdout.flush()
-		#time.sleep(0.08)
+		time.sleep(0.08)
 	print("\n")
 # gibt die Auswahl aus und  den Input zurück
 def choices(x,y):
