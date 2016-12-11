@@ -124,7 +124,7 @@ def fight(x,y):
 
 #############Einheiten###############
 rufus = unit("Rufus",100)
-schnappschildkröte = unit("Schnappschildkröte",100)
+schnappschildkröte = unit("Schnappschildkröte",50)
 
 
 #-----------Eigentlches Programm--------------------------
