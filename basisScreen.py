@@ -24,7 +24,11 @@ def boxOutput(datei,fenster):
     file.close()
 
 
+
 def main(stdscr):
+    def rufusAnzeige():
+        rufusPanel.addstr(1, 1, "Rufus")
+        rufusPanel.refresh()
 # Clear screen
     stdscr.clear()
     screen = curses.initscr()
@@ -55,7 +59,8 @@ def main(stdscr):
     rufusPanel.refresh()
     inventa.refresh()
 ######################################################
-    boxOutput("choice1.1.txt",box1)
+    rufusAnzeige()
+    boxOutput("text.txt",box1)
 
     stdscr.refresh()
     stdscr.getkey()
